@@ -33,7 +33,7 @@ Siga estas etapas para inicializar o projeto em sua máquina:
     ```
 2. **Depois de entrar no projeto você precisará instalar suas dependências**
 
-    Utilize o seguind comando
+    Utilize o seguinte comando
 
     ```bash
     npm install ou npm i
@@ -42,11 +42,14 @@ Siga estas etapas para inicializar o projeto em sua máquina:
 3. **Depois de instaladas as dependências, tera que criar um arquivo .env**
 
     Crie esse arquivo na raiz no projeto de backend e cole o seguinte nele.
-    
-    DB_STRING="mongodb+srv://nielitonsousa3040:8GDdrKcUOKuI5CY2@cluster0.xyrqk8w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-PORT=3333
-
     isso irá lhe fornecer variáveis de ambiente para poder rodar o projeto.
+    
+    ```bash
+    DB_STRING="mongodb+srv://nielitonsousa3040:8GDdrKcUOKuI5CY2@cluster0.xyrqk8w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+    PORT=3333
+    ```
+
 
 4. **Depois de criar o .env, você podera iniciar o projeto**
 
@@ -58,17 +61,17 @@ PORT=3333
 
 
 6. **Para testar o projeto você pode usar os endpoints e dados que serão listados abaixo**
-   Criação de funcionário: POST - api/employees
-   Visualização de todos os funcionários: GET - api/employees ou api/employees?sort=false (Para organizar por data de criação decrescente)
-   Visualização de apenas um funcionário: GET - api/employees/<idDoFuncionário>
-   Edição de funcionário: PUT - api/employees/<idDoFuncionário>
-   Deleção de funcionário: DELETE - api/employees/<idDoFuncionário>
+   - Criação de funcionário: POST - api/employees
+   - Visualização de todos os funcionários: GET - api/employees ou api/employees?sort=false (Para organizar por data de criação decrescente, use a query search=<nome>, para pesquisar por nome).
+   - Visualização de apenas um funcionário: GET - api/employees/<idDoFuncionário>
+   - Edição de funcionário: PUT - api/employees/<idDoFuncionário>
+   - Deleção de funcionário: DELETE - api/employees/<idDoFuncionário>
 
    **Para criação e atualização de funcionário, deve ser passado o seguinte body**
    ```bash
    {
     "name": "Final test update",
-    "actions": "updating",
+    "admissionDate": "AAAA-MM-DD",
     "charge": "full stack",
     "department": "teste2"
    }
