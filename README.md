@@ -2,6 +2,12 @@
 
 Olá, aqui seguem instruções de instalação do backend para o teste técnico RBR Digital.
 
+Caso não queira seguir os passos, você pode assistir esse vídeo que fiz no loom.
+
+```bash
+https://www.loom.com/share/2c2719c61994409baf8835b2670c6ebe?sid=c370f0a0-7a60-46ff-8ad1-2f0ffe0c222f
+```
+
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado em sua máquina:
