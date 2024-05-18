@@ -8,7 +8,6 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 - Node.js
 - npm (Node Package Manager)
-- MongoDB (ou acesso a um serviço de banco de dados MongoDB, como o MongoDB Atlas)
 
 ## Inicialização do Projeto
 
