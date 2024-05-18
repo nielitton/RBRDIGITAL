@@ -36,7 +36,7 @@ Siga estas etapas para inicializar o projeto em sua máquina:
 4. **Quando todos os passos estiverem concluídos, você podera rodar o projeto**
    
    ```bash
-   npm start 
+   npm run dev 
 
    O projeto irá rodar e lhe dirá em que porta está rodando e se ele se conectou com o banco ou não
 
