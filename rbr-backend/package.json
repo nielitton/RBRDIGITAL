@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch src --ext ts,json --exec node -r ts-node/register src/app/server.ts",
-    "start": "node --trace-warnings src/app/server.ts"
+    "start": "nodemon --watch src --ext ts,json --exec node -r ts-node/register src/app/server.ts",
+    "build": "node --trace-warnings src/app/server.ts"
   },
   "keywords": [],
   "author": "",
