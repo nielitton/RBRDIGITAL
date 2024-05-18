@@ -5,7 +5,7 @@ Olá, aqui seguem instruções de instalação do backend para o teste técnico 
 Caso não queira seguir os passos, você pode assistir esse vídeo que fiz no loom.
 
 ```bash
-https://www.loom.com/share/2c2719c61994409baf8835b2670c6ebe?sid=c370f0a0-7a60-46ff-8ad1-2f0ffe0c222f
+https://www.loom.com/share/367cf855ea0c45eb9d5fd8bf3cf4c43a?sid=23783ab5-8e85-4a2f-b7eb-b0cd1ce2fcfa
 ```
 
 ## Pré-requisitos
