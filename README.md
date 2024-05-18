@@ -11,7 +11,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 ## Inicialização do Projeto
 
-## Primeiramente clone o projeto em sua máquina com o git.
+0. **Primeiramente clone o projeto em sua máquina com o git.**
 
     ```bash
     git clone git@github.com:nielitton/RBRDIGITAL.git
