@@ -22,8 +22,8 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
-      <div className="flex flex-col gap-3 w-[95%]">
-        <div className="flex items-center justify-center border rounded-md p-3 flex-wrap gap-3">
+      <div className="flex flex-col gap-3 w-[95%] items-center justify-center">
+        <div className="w-full flex items-center justify-center border rounded-md p-3 flex-wrap gap-3">
           <h1 className="w-full text-center">Lista de funcionários</h1>
           <div className="flex justify-center w-full mr-4">
             <Input 

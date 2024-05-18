@@ -18,7 +18,7 @@ class EmployeeService {
         }
 
         if(exists) {
-            throw new AppError("Employee alreay exists", 400)
+            throw new AppError("Funcionário já existe", 400)
         }
 
         return await this.newEmployeeRepository.save(data);

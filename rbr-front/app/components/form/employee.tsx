@@ -7,7 +7,7 @@ import { z } from "zod"
 import { Button, FormControl, FormErrorMessage, FormLabel, Input, useToast, useUpdateEffect } from "@chakra-ui/react"
 import { useCreateEmployee } from "@/hooks/useCreateEmployee"
 import { IEmployees } from "@/models/interfaces/employee"
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { useUpdateEmployee } from "@/hooks/useUpdateEmployee"
 import { formatDate, formatDateToLocal } from "@/utils/dates"
 
@@ -97,9 +97,9 @@ function EmployeeForm({ createMode, dataRescued }: EmployeeFormProps) {
             setValue('name', dataRescued?.name || '');
             setValue('department', dataRescued?.department || '');
             setValue('charge', dataRescued?.charge || '');
-            setValue('admissionDate', formatDateToLocal(dataRescued?.admissionDate || '') || '');
+            setValue('admissionDate', formatDateToLocal(dataRescued?.admissionDate || ''));
         }
-    }, [dataRescued, newCreateMode, formatedDate, setValue]);
+    }, [dataRescued, newCreateMode, setValue]);
 
     return(
         <form className="flex flex-col gap-3 border rounded-md p-6" onSubmit={handleSubmit(onSubmit)}>
